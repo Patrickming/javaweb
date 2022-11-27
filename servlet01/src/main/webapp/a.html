@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--这里的表单，action里写的就是a.html这个页面的这个表单访问的网站（servlet），我们设置成刚刚的hello
+所以这里通过hello又去....就到了步骤一的过程
+-->
+<form action="http://localhost:8080/servlet01/hello" method="get">
+    <input type="submit" value="我是hello的提交（get）">
+    <!--然后我在http://localhost:8080/servlet01/a.html这个网页点击一次按钮即相当于访问一次hello这个servlet，
+     就访问一次web.xml中配置的hello对应的程序中的service程序
+     -->
+</form>
+<!--别忘记把hello改成helloHttp-->
+<form action="http://localhost:8080/servlet01/helloHttp" method="get">
+    <input type="submit" value="我是hello的GET提交">
+</form>
+<form action="http://localhost:8080/servlet01/helloHttp" method="post">
+    <input type="submit" value="我是helloHttp的POST提交">
+</form>
+<!--这里在网页点击相应按钮会对应到相应响应的get或post方法上-->
+</body>
+</html>

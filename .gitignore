@@ -1,0 +1,4 @@
+# Project exclude paths
+/JSON_Ajax/target/
+/servlet01/target/
+/servlet02/target/
