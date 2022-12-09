@@ -139,3 +139,14 @@ success：
 其实在我们开发的时候就可以：先配置好web.xml文件(dispatcherServlet设置),
 然后配置springMVC文件(配置thymeleaf),然后在web.xml文件里匹配springMVC文件
 然后写网页,然后在controller里配置服务器请求映射
+
+
+
+## 2、SpringMVC_demo
+//讲的就是有关@RequesMapping注解和里面的东西
+重新看了里面的@RequesMapping注解的ant风格路径
+
+## 3、SpringMVC_rest
+```text
+这一个文件，讲的是restful的东西，在这个文件里有笔记
+```
